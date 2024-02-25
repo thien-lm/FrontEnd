@@ -1,0 +1,84 @@
+
+  /* ----------------------- */
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-description {
+    margin-top: 5px;
+    font-size: 14px;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-description-final {
+    position: relative;
+    margin-top: 5px;
+    bottom: 2px;
+    font-size: 14px;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+  }
+
+
+  .person-data {
+    display: flex;
+    align-items: center;
+  }
+  
+  .person-image {
+    margin-right: 80px;
+    margin-left: 20px;
+  }
+  
+  .person-image img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .person-info {
+    flex: 1;
+  }
+  
+  .person-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .person-info p {
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }

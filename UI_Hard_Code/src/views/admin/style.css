@@ -1,0 +1,71 @@
+table {
+  border-collapse: collapse;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  margin-bottom: 20px;
+}
+
+table td,
+table th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.course-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 20%;
+  width: 60%;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 40%;
+  width: 20%;
+}
+
+.course-form div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.admin-navigator {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.mybtn {
+  width: 5%;
+}
+
+/* .course-form div input{
+  position: relative;
+  right: 0%;
+} */
+
+.course-form input[type="text"] {
+  width: 90%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.course-form input[type="text"]:focus {
+  outline: none;
+  border-bottom: 1px solid #007bff;
+}
